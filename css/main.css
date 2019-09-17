@@ -1,0 +1,783 @@
+main
+{
+    background-image:url(../images/bg.png);
+    padding-bottom: 20px;
+}
+body
+{
+    margin: 0;
+    min-height: 100%;
+}
+nav
+{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffb500;    
+}
+.desc p
+{
+    color: #fff;
+    font-size: 20px;
+}
+nav ul
+{
+    list-style: none;        
+}
+nav ul li
+{
+    display: inline-block;    
+    padding: 15px 15px;
+    margin: 0 2px 0 2px;
+    
+}
+nav a
+{
+    color: #000;
+    text-decoration: none;
+    font-size:1.25em;
+}
+#homeSliderContainer img
+{
+    width: 100%;
+    height: auto;
+}
+.twoColBox3 p
+{
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+#toogle
+{
+    display: none;
+}
+.twoColContainer
+{
+    display: flex;
+    margin:15px 0 10px 0;
+}
+.twoColBox1
+{
+    flex: 1;
+}
+.twoColBox2
+{
+    flex: 4;
+    border-right: 2px solid #ffb500;
+    text-align: right;
+    padding-right: 50px;
+}
+.twoColBox3
+{
+    flex: 4;
+    color:#fff;
+    padding-left: 50px;
+    text-align: justify;
+}
+.twoColBox4
+{
+    flex: 3;
+}
+.center
+{
+    text-align: center;
+}
+h2
+{ 
+    font-family: trajan pro;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-bottom: 2px solid #ffb500;    
+    font-size: 2em;
+}
+#servicesBanner
+{
+    background-image: url(../images/slider2.jpg);
+    width: 100%;
+    height: 300px;    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bannerTxt
+{
+    padding-top: 130px;
+    font-size: 2em;
+    font-weight: bold;    
+    color: #fff;
+}
+.servicesContainer
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+}
+.servicesContainer div
+{
+    margin: 15px;
+}
+.servicesContainer dt
+{
+    font-size: 1.5em;
+    border-bottom: 1px solid #ffb500;
+}
+.servicesContainer li
+{
+    font-size: 1.2em;
+    line-height: 2;
+}
+.servicesBox1
+{
+    flex: 4;
+    padding-left: 10px;
+}
+.servicesBox2
+{
+    flex: 4;
+    padding-left: 10px;
+}
+.servicesBox3
+{
+    flex: 4;
+    padding-left: 10px;
+}
+.btn
+{
+    border: 1.5px solid #ffb500;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover
+{
+    border: 1.5px solid #000;
+    padding: 8px;
+    background-color: #ffb500;
+    color: #000;
+    text-decoration: none;
+}
+label
+{
+    display: block;
+    height: 10px;
+}
+input[type="date"]:before 
+{
+    content: attr(placeholder) !important;
+    color: #757575;    
+    margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before 
+{
+    content: "";
+}
+#bookUsForm h2
+{
+    font-size: 28px;
+}
+.space
+{
+    display: block;
+    height: 18px;
+}
+.bookUsBtn
+{
+    background-color: #ffb500;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 8px;
+}
+.bookUsBtn:hover
+{
+    background-color: #ffb500;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 8px;
+}
+.folioCatContainer
+{
+    display: flex;
+    min-height: 100%;
+    margin: 0 230px;
+}
+main
+{
+    min-height: 100vh;
+}
+
+.folioCat
+{
+    flex: 4;
+    border: 2px solid #ffb500;
+    margin: 0 10px;   
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px;
+}
+#weddingSlider
+{
+    width: 100%;
+    height: 200px;    
+}
+#fashionSlider
+{
+    width: 100%;
+    height: 200px;
+}
+#childrenSlider
+{
+    width:100%;
+    height: 200px;
+}
+.testimonialsContainer
+{
+    background-color: rgba(0,0,0,0.4);
+    margin: 10px 100px 0 100px;;
+    padding-bottom: 10px;
+}
+
+#testimonials div
+{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;        
+}
+.footerContainer
+{
+    height: 60px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+}
+footer
+{
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.copy
+{
+    float: left;
+    padding:40px 0 0 15px;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+    padding: 30px 30px 0 0;
+}
+
+.right a
+{
+    display: inline-block;
+}
+#fb
+{    
+    background-image: url(../images/fb.png);
+    height: 46px;
+    width: 46px;   
+    transition: 0.5s;
+}
+#fb:hover
+{
+    background-image: url(../images/fbhover.png);
+    transition: 0.5s;
+}
+#insta
+{
+    background-image: url(../images/insta.png);
+    height: 46px;
+    width: 46px;   
+    transition: 0.5s;
+}
+#insta:hover
+{
+    background-image: url(../images/instahover.png);
+    transition: 0.5s;
+}
+.footerBox1
+{
+    flex: 4; 
+    padding: 25px 10px;
+}
+.footerBox2
+{
+    flex: 4;
+}
+.footerBox3
+{
+    flex: 4;
+}
+.footerBox4
+{
+    flex: 4;    
+    text-align: right;
+    padding-right: 10px;
+}
+.footerBox4 a
+{
+    display: inline-block;
+    margin: 0 2px 0 2px;
+}
+.hide
+{
+    display: none;
+    transition: 0.5s;
+}
+.show
+{
+    display: block;
+    transition: 0.5s;
+}
+.contactContainer
+{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.contactContainer span
+{
+    display: block;
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+i
+{
+    font-size: 26px;
+    margin-top: 15px;
+}
+.contactBox1
+{
+    flex: 1;
+}
+.contactBox2
+{
+    flex: 5;
+}
+.contactBox3
+{
+    flex: 5;
+}
+.contactBox4
+{
+    flex: 1;
+}
+.contactContainer input
+{
+    height: 30px;
+    margin: 5px;
+    width: 90%;
+}
+.contactContainer textarea
+{
+    height: 80px;
+    margin: 5px;
+    width: 90%;
+}
+.rightContac
+{
+    float: right;
+    margin-top: 15px;
+}
+.mobile
+{
+    display: none;
+}
+.fade 
+{  
+    animation-name: fade;  
+    animation-duration: 1.5s;  
+}  
+@keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+.galleryContainer
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5px;    
+}
+.galleryContainer img
+{
+    width: 100%;
+    height: 100%; 
+    filter: grayscale(100%);
+    transition: 0.7s;
+} 
+.galleryContainer img:hover
+{
+    cursor: pointer;
+    filter: grayscale(20%);
+    transition: 0.5s;
+} 
+.galleryContainer div
+{
+    margin: 0px;
+} 
+.galleryBox1
+{
+    flex: 4;   
+}
+.galleryBox2
+{
+    flex: 4;   
+}
+.galleryBox3
+{
+    flex: 4;   
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 0px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    animation-name: fade;  
+    animation-duration: 0.8s;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: rgba(0,0,0,0.4);
+    margin: auto;    
+    width: auto;
+    text-align: center;
+    height: 100%;
+}
+.modal-content img{
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 9px;
+    left: 83%;
+    color: #ffb500;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 0px 5px 0px;
+    background-color: #000;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.teamContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    color: #fff;
+    text-align: center;
+}
+.teamContainer img
+{
+    border-radius: 50%;
+    border: 4px solid #ffb500;
+}
+.teamContainer div
+{
+    padding: 10px;
+    margin: 10px;
+}
+.teamBox1
+{
+    flex: 4
+}
+.teamBox2
+{
+    flex: 4
+}
+.teamBox3
+{
+    flex: 4
+}
+.name
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.position
+{
+    font-style: italic;
+    font-size: 22px;
+}
+.bio
+{
+    font-size: 20px;
+    text-align: left;
+}
+table
+{
+    width: 500px;
+    margin: auto;
+}
+th
+{
+    color: #ffb500;
+    font-weight: bold;
+    font-size: 22px;
+    background: #000;
+    padding: 15px;
+}
+td
+{
+    color: #fff;
+    font-size: 18px;        
+    padding: 10px;    
+}
+tr:nth-of-type(even)
+{
+    background-color: rgba(0,0,0,0.6);
+}
+td,th,table
+{
+    border: 2px solid #ffb500;
+    border-collapse: collapse;
+}
+.buyContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 5px;
+    color: #fff;    
+}
+.buyContainer>div
+{
+    border: 2px solid #ffb500;
+    padding: 3px;
+    margin: 5px;
+}
+.buyContainer span
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.buyContainer img
+{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.buyBox1
+{
+    flex: 3;
+}
+.buyBox2
+{
+    flex: 3;
+}
+.buyBox3
+{
+    flex: 3;
+}
+.buyBox4
+{
+    flex: 3;
+}
+.buyDetails
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+@media (max-width:1024px)
+{
+    nav
+    {
+        flex-direction: column;
+        text-align: center;
+    }   
+    .contactContainer
+    {
+        flex-direction: column;
+    }
+    .contactBox3
+    {
+        padding: 5px;
+    }
+    iframe
+    {
+        margin: auto;
+        max-width: 100%;
+    }
+    .modal-content img
+    {
+        max-width:100%;
+        max-height: 70%;                    
+    }
+    .folioCatContainer
+    {
+        margin: 0;
+    }
+}
+
+@media (max-width:768px)
+{
+    #toogle
+    {
+        display: block;
+        position: relative;
+        border: 2px solid #000;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+    nav ul
+    {
+        position: absolute;
+        top: 85px;
+        left: -250px;
+        background-color: #ffb500;                
+        padding: 20px; 
+        transition: 1s;
+    }
+    .navShow
+    {
+        left: 0;
+        transition: 1s;
+    }    
+    nav ul li
+    {
+        display: block;    
+        padding: 5px;        
+    }
+    nav img
+    {
+        width: 275px;
+    }
+    #homeSliderContainer
+    {
+        display: none;
+    }
+    .twoColContainer
+    {
+        flex-direction: column;
+    }
+    .twoColBox2
+    {
+        border: none;
+    }
+    .twoColBox3
+    {
+        padding: 3px;
+    }
+    .folioCatContainer
+    {
+        flex-direction: column;
+        margin: 0;
+    }
+    .folioCatContainer div
+    {
+        margin: 5px;
+    }
+    .galleryContainer
+    {
+        flex-direction: column;
+    }
+    .servicesContainer
+    {
+        flex-direction: column;
+    }
+    .testimonialsContainer
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .rightContac
+    {
+        float: left;
+    }
+    .teamContainer
+    {
+        flex-direction: column;
+    }
+    .buyContainer
+    {
+        flex-direction: column;
+    }
+    .bannerTxt
+    {
+        font-size: 1.5em;
+    }
+    .modal-content img
+    {
+        max-width:100%;
+        max-height: 35%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    /* responsive table start*/
+    
+        table,thead,tbody,th,td,tr
+        {
+            display: block;
+            text-align: left;
+        }
+        thead tr
+        {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        tr
+        {
+            border: 1px solid #000;
+        }
+        td
+        {
+            border: none;
+            border-bottom: 1px solid #000;
+            position: relative;
+            padding-left: 40%;
+        }
+        td:before
+        {
+            position: absolute;
+            top:6px;
+            left: 6px;
+            padding-right: 10px;
+            white-space: nowrap;
+            width: 45%;
+        }
+        td:nth-of-type(1):before{content: "S.No"}
+        td:nth-of-type(2):before{content: "Award"}
+        td:nth-of-type(3):before{content: "Year"}
+    
+    /* responsive table end*/
+}
